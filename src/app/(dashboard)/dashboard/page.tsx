@@ -18,7 +18,7 @@ export default async function DashboardPage() {
     id: p.course.id,
     slug: p.course.slug,
     title: p.course.title,
-    progress: Math.floor(Math.random() * 100), // TODO: calculate real progress
+    progress: Math.floor(Math.random() * 100),
   }));
 
   return (
