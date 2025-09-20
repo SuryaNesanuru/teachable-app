@@ -1,7 +1,7 @@
 "use client";
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-import { Button } from '../../ui/button';
+import { Button } from '../ui';
 
 export function SearchBar() {
   const [q, setQ] = useState('');
